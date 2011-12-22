@@ -1,7 +1,5 @@
 jQuery Map Marker Plugin 1.0.0
 
-Download Link : http://www.welancers.com/cc/jQuery.mapmarker.zip
-
 Step-1 : Include necessary JS files in your <head> tag
 
 <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
