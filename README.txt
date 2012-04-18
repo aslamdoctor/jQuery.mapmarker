@@ -25,9 +25,9 @@ Step-3 : Apply the Plugin to the Map element using below code. Put the code befo
 	
 		//set up markers 
 		var myMarkers = {"markers": [
-				{"latitude": "31.42866311735861", "longitude":"-98.61328125", "icon": "img/house.png", "baloon_text": "This is <strong>Texas</strong>"},
-				{"latitude": "35.101934057246055", "longitude":"-96.6796875", "icon": "img/castle.png", "baloon_text": "This is <strong>Oklahoma</strong>"},
-				{"latitude": "38.61687046392973", "longitude":"-98.876953125", "icon": "img/house.png", "baloon_text": "This is <strong>Kansas</strong>"}
+				{"latitude": "31.42866311735861", "longitude":"-98.61328125", "icon": "img/house.png", "baloon_text": 'This is <strong>Texas</strong>'},
+				{"latitude": "35.101934057246055", "longitude":"-96.6796875", "icon": "img/castle.png", "baloon_text": 'This is <strong>Oklahoma</strong>'},
+				{"latitude": "38.61687046392973", "longitude":"-98.876953125", "icon": "img/house.png", "baloon_text": 'This is <strong>Kansas</strong>'}
 			]
 		};
 		
@@ -46,7 +46,7 @@ myMarker : We have used this variable to store JSON data of each locations. Each
 1. latitude - latitude of the location
 2. longitude - longitude of the location
 3. icon - a custom icon to display on map as marker (16 x 16 pixels size)
-4. baloon_text - a Text to display in a Baloon on map when clicked on that specific Marker. You can also use this text in HTML format.
+4. baloon_text - a Text to display in a Baloon on map when clicked on that specific Marker. You can also use this text in HTML format. Make sure you use single quotes(') only for HTML format baloon text.
 
 Additionally, there are 2 more options which you can set on Map.
 1. zoom - to set default zoom level of the Map. Increase the value to zoom-in & Decrease the value to zoom-out
